@@ -39,6 +39,7 @@ function updateCircle(){
             circle.classList.remove('active')
         }
     })
+    progress.style.width = (currentActiveIndex / (circles.length -1) * 100) + '%'
 }
 
 function updateButton(){
